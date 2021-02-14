@@ -40,10 +40,24 @@
 
 
 // 繰り返し処理（for文）
-var i;
-var num = 0;
+// var i;
+// var num = 0;
 
-for(i = 1; i < 11; i++){
-  num = num + i;
-}
-alert('1から10まで足し算した結果は' + num + 'です');
+// for(i = 1; i < 11; i++){
+//   num = num + i;
+// }
+// alert('1から10まで足し算した結果は' + num + 'です');
+
+
+
+// 確認問題
+
+var addiction = 1 + 1;
+var subtraction = 3 - 1;
+var multiplication = 2 * 2;
+var division = 6 / 3;
+
+alert('1+1は' + addiction + 'です' );
+alert('3-1は' + subtraction + 'です');
+alert('2×2は' + multiplication + 'です');
+alert('6÷3は' + division + 'です');
